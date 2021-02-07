@@ -1,0 +1,562 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-29T20:15:12.140Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2589760000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User names test for user Elenor Kreiger",
+        "description": "",
+        "id": "login;user-names-test-for-user-\u003cname\u003e;credentials;2",
+        "after": [
+          {
+            "result": {
+              "duration": 123870000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16304000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "users is on the login page",
+            "match": {
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.users_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4680854000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"user187\" username and \"UserUser123\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user187\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2019199000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user name should be \"Elenor Kreiger\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Elenor Kreiger\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.user_name_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-29T20:15:21.575Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1866228000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User names test for user Meggie Macejkovic",
+        "description": "",
+        "id": "login;user-names-test-for-user-\u003cname\u003e;credentials;3",
+        "after": [
+          {
+            "result": {
+              "duration": 115204000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 388000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "users is on the login page",
+            "match": {
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.users_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4786941000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"user200\" username and \"UserUser123\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user200\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2017124000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user name should be \"Meggie Macejkovic\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Meggie Macejkovic\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.user_name_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-29T20:15:30.363Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1970573000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User names test for user Lorine Johns",
+        "description": "",
+        "id": "login;user-names-test-for-user-\u003cname\u003e;credentials;4",
+        "after": [
+          {
+            "result": {
+              "duration": 142263000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 512000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "users is on the login page",
+            "match": {
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.users_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4736054000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"storemanager52\" username and \"UserUser123\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"storemanager52\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2018003000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user name should be \"Lorine Johns\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lorine Johns\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.user_name_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-29T20:15:39.233Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1906926000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User names test for user Albin Lemke",
+        "description": "",
+        "id": "login;user-names-test-for-user-\u003cname\u003e;credentials;5",
+        "after": [
+          {
+            "result": {
+              "duration": 142256000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1081000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "users is on the login page",
+            "match": {
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.users_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4831188000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"storemanager66\" username and \"UserUser123\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"storemanager66\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2021046000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user name should be \"Albin Lemke\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Albin Lemke\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.user_name_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-29T20:15:48.138Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2019001000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User names test for user Deion Fadel",
+        "description": "",
+        "id": "login;user-names-test-for-user-\u003cname\u003e;credentials;6",
+        "after": [
+          {
+            "result": {
+              "duration": 138091000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 305000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "users is on the login page",
+            "match": {
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.users_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4901115000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"salesmanager125\" username and \"UserUser123\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"salesmanager125\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2016465000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user name should be \"Deion Fadel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deion Fadel\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.user_name_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-29T20:15:57.216Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1832390000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User names test for user Matteo Hegmann",
+        "description": "",
+        "id": "login;user-names-test-for-user-\u003cname\u003e;credentials;7",
+        "after": [
+          {
+            "result": {
+              "duration": 142701000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 623000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "users is on the login page",
+            "match": {
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.users_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4937652000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"salesmanager140\" username and \"UserUser123\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"salesmanager140\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2018235000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user name should be \"Matteo Hegmann\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Matteo Hegmann\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.vytrack.stepdefinitions.LoginStepDefinitions.user_name_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/LoginDDT.feature",
+    "tags": [
+      {
+        "name": "@scenario_outline",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
